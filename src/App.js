@@ -38,7 +38,7 @@ class App extends Component {
             <div key={index}>
               <h3>{question.question}</h3>
               {question.options.map((option, index) => {
-                return <button key={index}>{`${option}`}</button>
+                return <button className='btn-primary' key={index}>{`${option}`}</button>
               })}
             </div>
           )
